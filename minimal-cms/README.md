@@ -1,3 +1,3 @@
 ## Overview
 
-Minimal example of SilverStripe app.
+Example of a minimal SilverStripe CMS application.
