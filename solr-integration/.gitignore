@@ -5,3 +5,4 @@ fulltextsearch-localsolr/
 reports/
 siteconfig/
 vendor/
+.solr/
