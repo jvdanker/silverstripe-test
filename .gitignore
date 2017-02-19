@@ -1,0 +1,8 @@
+cms/
+framework/
+vendor/
+assets/
+siteconfig/
+reports/
+_ss_environment.php
+.idea/
