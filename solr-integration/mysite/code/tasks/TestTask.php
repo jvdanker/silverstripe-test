@@ -3,6 +3,9 @@
 class TestTask extends BuildTask {
 
     public function run($request) {
+
+        $index = singleton('TestIndex');
+
         $page = new Page(array(
             'Content' => 'Document 1.'));
         $page->write();
@@ -14,7 +17,7 @@ class TestTask extends BuildTask {
         $query = new SearchQuery();
         $query->search('My house is on fire');
 
-        $results = singleton('TestIndex')->search($query);
+        $results = $index->search($query);
         print_r($results);
     }
 
