@@ -18,3 +18,7 @@ Solr::configure_server(array(
         'path' => BASE_PATH . '/.solr'
     )
 ));
+
+Director::addRules(100, array(
+	'search' => 'SearchController'
+));
