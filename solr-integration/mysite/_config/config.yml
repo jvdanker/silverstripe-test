@@ -12,6 +12,7 @@ SSViewer:
 Debug:
   friendly_error_httpcode: true
 
+# Extract file contents from all File-objects
 File:
   extensions:
     - FileTextExtractable
