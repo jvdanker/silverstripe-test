@@ -22,3 +22,11 @@ Solr::configure_server(array(
 Director::addRules(100, array(
 	'search' => 'SearchController'
 ));
+
+/*
+Page_Controller::$search_index_class = 'TestIndex';
+Page_Controller::$classes_to_search[] = array(
+	'class' => 'File',
+	'includeSubclasses' => true
+);
+*/

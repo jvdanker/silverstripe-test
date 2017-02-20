@@ -1,8 +1,0 @@
-cms/
-framework/
-fulltextsearch/
-fulltextsearch-localsolr/
-reports/
-siteconfig/
-vendor/
-.solr/
