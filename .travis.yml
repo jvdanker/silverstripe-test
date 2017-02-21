@@ -13,7 +13,7 @@ addons:
 env:
   global:
     - CORE_RELEASE=3
-    
+
 php:
   - '5.6'
 
