@@ -1,5 +1,19 @@
 language: php
 
+sudo: false
+
+addons:
+  apt:
+    packages:
+      - tidy
+
+addons:
+  firefox: "31.0"
+
+env:
+  global:
+    - CORE_RELEASE=3
+    
 php:
   - '5.6'
 
