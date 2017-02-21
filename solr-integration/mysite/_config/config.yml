@@ -12,6 +12,18 @@ SSViewer:
 Debug:
   friendly_error_httpcode: true
 
+---
+Name: mytextextraction
+After:
+  - '#mysite'
+  - '#textextraction'
+---
+Injector:
+  FileTextCache: FileTextCache_SSCache
+
+FileTextCache_SSCache:
+  lifetime: 3600 # Number of seconds to cache content for
+
 # Extract file contents from all File-objects
 File:
   extensions:
