@@ -1,15 +1,13 @@
 {
-	"name": "silverstripe/installer",
-	"description": "The SilverStripe Framework Installer",
+	"name": "jvdanker/solr-integration",
+	"description": "Example of SOLR integration with SilverStripe",
 	"require": {
 		"php": ">=5.3.3",
-		"silverstripe/cms": "3.5.1",
 		"silverstripe/framework": "3.5.1",
-		"silverstripe/reports": "3.5.1",
-		"silverstripe/siteconfig": "3.5.1",
 		"silverstripe-themes/simple": "3.1.*",
 		"silverstripe/fulltextsearch": "^2.3",
-		"silverstripe/textextraction": "^2.1"
+		"silverstripe/textextraction": "^2.1",
+		"silverstripe/cms": "^3.5"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7@stable",
