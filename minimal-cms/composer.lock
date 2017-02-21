@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2009932b178cd8f201af374784d712c6",
+    "content-hash": "2551c57c999eb89bf9eec32192956349",
     "packages": [
         {
             "name": "composer/installers",
@@ -151,16 +151,16 @@
         },
         {
             "name": "silverstripe/cms",
-            "version": "3.5.1",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "36287b09d009010172e988a3496be75c97c05fd0"
+                "reference": "80099f24b76b4ac36d38477f1ad8230208b031cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/36287b09d009010172e988a3496be75c97c05fd0",
-                "reference": "36287b09d009010172e988a3496be75c97c05fd0",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/80099f24b76b4ac36d38477f1ad8230208b031cb",
+                "reference": "80099f24b76b4ac36d38477f1ad8230208b031cb",
                 "shasum": ""
             },
             "require": {
@@ -173,7 +173,7 @@
             "type": "silverstripe-module",
             "extra": {
                 "branch-alias": {
-                    "3.x-dev": "3.5.x-dev"
+                    "3.x-dev": "3.6.x-dev"
                 }
             },
             "autoload": {
@@ -201,20 +201,20 @@
                 "cms",
                 "silverstripe"
             ],
-            "time": "2016-12-16T20:49:04+00:00"
+            "time": "2017-02-20T17:01:15+00:00"
         },
         {
             "name": "silverstripe/framework",
-            "version": "3.5.1",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "9de539fdababce5cd506e1f02661071adeda7a6a"
+                "reference": "a2580456bda9ff513cf80227039fc79405908f3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/9de539fdababce5cd506e1f02661071adeda7a6a",
-                "reference": "9de539fdababce5cd506e1f02661071adeda7a6a",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/a2580456bda9ff513cf80227039fc79405908f3f",
+                "reference": "a2580456bda9ff513cf80227039fc79405908f3f",
                 "shasum": ""
             },
             "require": {
@@ -255,11 +255,11 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2016-12-21T21:43:34+00:00"
+            "time": "2017-02-20T17:01:16+00:00"
         },
         {
             "name": "silverstripe/reports",
-            "version": "3.5.1",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-reports.git",
@@ -309,16 +309,16 @@
         },
         {
             "name": "silverstripe/siteconfig",
-            "version": "3.5.1",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-siteconfig.git",
-                "reference": "ad16aeff7d7a7d2c1a25c1235a4f98233aa878e2"
+                "reference": "875c18cc940aeace6032d37c112333f64deab345"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-siteconfig/zipball/ad16aeff7d7a7d2c1a25c1235a4f98233aa878e2",
-                "reference": "ad16aeff7d7a7d2c1a25c1235a4f98233aa878e2",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-siteconfig/zipball/875c18cc940aeace6032d37c112333f64deab345",
+                "reference": "875c18cc940aeace6032d37c112333f64deab345",
                 "shasum": ""
             },
             "require": {
@@ -348,7 +348,7 @@
                 "silverstripe",
                 "siteconfig"
             ],
-            "time": "2016-12-16T20:49:05+00:00"
+            "time": "2016-12-22T00:18:45+00:00"
         }
     ],
     "packages-dev": [
@@ -774,8 +774,6 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {
-        "php": ">=5.3.3"
-    },
+    "platform": [],
     "platform-dev": []
 }
